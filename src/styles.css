@@ -129,7 +129,32 @@ p {
   color: var(--primary-color);
 }
 
-@media (max-width: 900px) {
+footer .contact-box {
+  background-color: var(--background-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer h4 {
+  font-weight: bold;
+}
+
+footer p {
+  font-size: 18px;
+  margin: 0;
+}
+
+footer .social-links {
+  margin: 0 40px;
+  color: var(--primary-color);
+  font-size: 40px;
+}
+
+footer .social-links:hover {
+  color: var(--secondary-color);
+}
+
+@media (max-width: 990px) {
   h1 {
     font-size: 60px;
   }
@@ -145,5 +170,9 @@ p {
 
   .content {
     text-align: center;
+  }
+
+  .contact-box {
+    display: none;
   }
 }
